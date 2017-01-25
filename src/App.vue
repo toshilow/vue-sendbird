@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <md-toolbar>
-      <h1 class="md-title">SendBird</h1>
+      <h1 class="md-title">Send Bird</h1>
+      <div style="flex: 1"></div>
+      <md-button>Add</md-button>
+      <md-button>Remove</md-button>
     </md-toolbar>
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
